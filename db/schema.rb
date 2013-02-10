@@ -14,13 +14,13 @@
 ActiveRecord::Schema.define(:version => 20130210220651) do
 
   create_table "projects", :force => true do |t|
-    t.string   "title"
+    t.string   "title",                                                        :null => false
     t.text     "description"
-    t.decimal  "budget"
+    t.decimal  "budget",        :precision => 8, :scale => 2, :default => 0.0
     t.date     "soft_deadline"
     t.date     "hard_deadline"
-    t.datetime "created_at",    :null => false
-    t.datetime "updated_at",    :null => false
+    t.datetime "created_at",                                                   :null => false
+    t.datetime "updated_at",                                                   :null => false
   end
 
 end
