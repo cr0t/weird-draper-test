@@ -1,46 +1,47 @@
-ruby-1.9.3-p327@weirdtest:
+  $ rvm info
+  ruby-1.9.3-p327@weirdtest:
 
-  system:
-    uname:       "Darwin bender.selfip.net 12.2.1 Darwin Kernel Version 12.2.1: Thu Oct 18 16:32:48 PDT 2012; root:xnu-2050.20.9~2/RELEASE_X86_64 x86_64"
-    system:      "osx/10.8/x86_64"
-    bash:        "/bin/bash => GNU bash, version 3.2.48(1)-release (x86_64-apple-darwin12)"
-    zsh:         "/bin/zsh => zsh 4.3.11 (i386-apple-darwin12.0)"
+    system:
+      uname:       "Darwin bender.selfip.net 12.2.1 Darwin Kernel Version 12.2.1: Thu Oct 18 16:32:48 PDT 2012; root:xnu-2050.20.9~2/RELEASE_X86_64 x86_64"
+      system:      "osx/10.8/x86_64"
+      bash:        "/bin/bash => GNU bash, version 3.2.48(1)-release (x86_64-apple-darwin12)"
+      zsh:         "/bin/zsh => zsh 4.3.11 (i386-apple-darwin12.0)"
 
-  rvm:
-    version:      "rvm 1.18.5 (master) by Wayne E. Seguin <wayneeseguin@gmail.com>, Michal Papis <mpapis@gmail.com> [https://rvm.io/]"
-    updated:      "5 days 23 hours 51 minutes 26 seconds ago"
+    rvm:
+      version:      "rvm 1.18.5 (master) by Wayne E. Seguin <wayneeseguin@gmail.com>, Michal Papis <mpapis@gmail.com> [https://rvm.io/]"
+      updated:      "5 days 23 hours 51 minutes 26 seconds ago"
 
-  ruby:
-    interpreter:  "ruby"
-    version:      "1.9.3p327"
-    date:         "2012-11-10"
-    platform:     "x86_64-darwin12.2.1"
-    patchlevel:   "2012-11-10 revision 37606"
-    full_version: "ruby 1.9.3p327 (2012-11-10 revision 37606) [x86_64-darwin12.2.1]"
+    ruby:
+      interpreter:  "ruby"
+      version:      "1.9.3p327"
+      date:         "2012-11-10"
+      platform:     "x86_64-darwin12.2.1"
+      patchlevel:   "2012-11-10 revision 37606"
+      full_version: "ruby 1.9.3p327 (2012-11-10 revision 37606) [x86_64-darwin12.2.1]"
 
-  homes:
-    gem:          "/Users/cr0t/.rvm/gems/ruby-1.9.3-p327@weirdtest"
-    ruby:         "/Users/cr0t/.rvm/rubies/ruby-1.9.3-p327"
+    homes:
+      gem:          "/Users/cr0t/.rvm/gems/ruby-1.9.3-p327@weirdtest"
+      ruby:         "/Users/cr0t/.rvm/rubies/ruby-1.9.3-p327"
 
-  binaries:
-    ruby:         "/Users/cr0t/.rvm/rubies/ruby-1.9.3-p327/bin/ruby"
-    irb:          "/Users/cr0t/.rvm/rubies/ruby-1.9.3-p327/bin/irb"
-    gem:          "/Users/cr0t/.rvm/rubies/ruby-1.9.3-p327/bin/gem"
-    rake:         "/Users/cr0t/.rvm/gems/ruby-1.9.3-p327@global/bin/rake"
+    binaries:
+      ruby:         "/Users/cr0t/.rvm/rubies/ruby-1.9.3-p327/bin/ruby"
+      irb:          "/Users/cr0t/.rvm/rubies/ruby-1.9.3-p327/bin/irb"
+      gem:          "/Users/cr0t/.rvm/rubies/ruby-1.9.3-p327/bin/gem"
+      rake:         "/Users/cr0t/.rvm/gems/ruby-1.9.3-p327@global/bin/rake"
 
-  environment:
-    PATH:         "/Users/cr0t/.rvm/gems/ruby-1.9.3-p327@weirdtest/bin:/Users/cr0t/.rvm/gems/ruby-1.9.3-p327@global/bin:/Users/cr0t/.rvm/rubies/ruby-1.9.3-p327/bin:/Users/cr0t/.rvm/bin:/Users/cr0t/.rvm/gems/ruby-1.9.3-p327/bin:/Users/cr0t/.rvm/gems/ruby-1.9.3-p327@datacrafts/bin:/Users/cr0t/Workspace/frameworks/play:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/Cellar/smlnj/110.75/libexec/bin"
-    GEM_HOME:     "/Users/cr0t/.rvm/gems/ruby-1.9.3-p327@weirdtest"
-    GEM_PATH:     "/Users/cr0t/.rvm/gems/ruby-1.9.3-p327@weirdtest:/Users/cr0t/.rvm/gems/ruby-1.9.3-p327@global"
-    MY_RUBY_HOME: "/Users/cr0t/.rvm/rubies/ruby-1.9.3-p327"
-    IRBRC:        "/Users/cr0t/.rvm/rubies/ruby-1.9.3-p327/.irbrc"
-    RUBYOPT:      ""
-    gemset:       "weirdtest"
+    environment:
+      PATH:         "/Users/cr0t/.rvm/gems/ruby-1.9.3-p327@weirdtest/bin:/Users/cr0t/.rvm/gems/ruby-1.9.3-p327@global/bin:/Users/cr0t/.rvm/rubies/ruby-1.9.3-p327/bin:/Users/cr0t/.rvm/bin:/Users/cr0t/.rvm/gems/ruby-1.9.3-p327/bin:/Users/cr0t/.rvm/gems/ruby-1.9.3-p327@datacrafts/bin:/Users/cr0t/Workspace/frameworks/play:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/Cellar/smlnj/110.75/libexec/bin"
+      GEM_HOME:     "/Users/cr0t/.rvm/gems/ruby-1.9.3-p327@weirdtest"
+      GEM_PATH:     "/Users/cr0t/.rvm/gems/ruby-1.9.3-p327@weirdtest:/Users/cr0t/.rvm/gems/ruby-1.9.3-p327@global"
+      MY_RUBY_HOME: "/Users/cr0t/.rvm/rubies/ruby-1.9.3-p327"
+      IRBRC:        "/Users/cr0t/.rvm/rubies/ruby-1.9.3-p327/.irbrc"
+      RUBYOPT:      ""
+      gemset:       "weirdtest"
 
-brew info postgres
-postgresql: stable 9.2.2
-http://www.postgresql.org/
-Depends on: readline, ossp-uuid
-Conflicts with: postgres-xc
-/usr/local/Cellar/postgresql/9.2.2 (2819 files, 39M) *
-https://github.com/mxcl/homebrew/commits/master/Library/Formula/postgresql.rb
+  $ brew info postgres
+  postgresql: stable 9.2.2
+  http://www.postgresql.org/
+  Depends on: readline, ossp-uuid
+  Conflicts with: postgres-xc
+  /usr/local/Cellar/postgresql/9.2.2 (2819 files, 39M) *
+  https://github.com/mxcl/homebrew/commits/master/Library/Formula/postgresql.rb
